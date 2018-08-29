@@ -1,0 +1,106 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Theme of the editor -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for layout for product information in detail -->
+    <style name="DetailLayoutStyle">
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:paddingRight">@dimen/padding_16dp</item>
+        <item name="android:paddingTop">@dimen/padding_8dp</item>
+        <item name="android:paddingBottom">@dimen/padding_8dp</item>
+        <item name="android:background">@color/backgroundColor</item>
+    </style>
+
+    <style name="QuantityButtonStyle" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:layout_width">@dimen/button_size</item>
+        <item name="android:layout_height">@dimen/button_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+
+    <style name="DividerStyle">
+        <item name="android:layout_marginLeft">@dimen/padding_8dp</item>
+        <item name="android:layout_marginRight">@dimen/padding_8dp</item>
+        <item name="android:background">@color/dividerColor</item>
+    </style>
+
+    <style name="ContactButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_8dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+    </style>
+    <!-- Style for a category in the editor -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/padding_16dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="EditFieldStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="EditFieldUnitStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <style name="EditFieldStyle.TextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <!-- Style for a category in the detail -->
+    <style name="CategoryDetailStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="PhotoStyle">
+        <item name="android:layout_width">@dimen/photo_size</item>
+        <item name="android:layout_height">@dimen/photo_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="CategoryLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/padding_16dp</item>
+        <item name="android:paddingRight">@dimen/padding_16dp</item>
+    </style>
+
+
+</resources>

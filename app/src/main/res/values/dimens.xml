@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_height">48dp</dimen>
+    <dimen name="photo_size">250dp</dimen>
+    <dimen name="image_picker_box">150dp</dimen>
+    <dimen name="button_size">48dp</dimen>
+    <dimen name="empty_image_height">170dp</dimen>
+    <dimen name="layout_margin_16dp">16dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="horizontal_divider_height">2dp</dimen>
+    <dimen name="vertical_divider_width">1dp</dimen>
+    <dimen name="zero_width">0dp</dimen>
+    <dimen name="text_box_height">24dp</dimen>
+    <dimen name="list_item_height">80dp</dimen>
+</resources>

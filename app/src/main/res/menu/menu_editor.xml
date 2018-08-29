@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save"
+        android:title="@string/save_product_detail"
+        android:icon="@drawable/ic_action_tick"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete_product_detail"
+        android:title="@string/delete_product_detail"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="ifRoom"/>
+</menu>

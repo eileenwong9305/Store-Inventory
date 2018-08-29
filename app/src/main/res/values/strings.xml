@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Store Inventory</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier">Supplier</string>
+    <string name="product_name">Product Name</string>
+    <string name="name">Name</string>
+    <string name="brand">Brand</string>
+    <string name="weight">Weight</string>
+    <string name="kg_unit">kg/unit</string>
+    <string name="price">Price</string>
+    <string name="rm">RM</string>
+    <string name="unit">unit</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+    <string name="delete_all_entries">Delete All Entries</string>
+    <string name="save_product_detail">Save Product Detail</string>
+    <string name="delete_product">Delete Product</string>
+
+    <string name="order_for">Order for %1$s</string>
+
+    <string name="product_no_name">Please enter name of product</string>
+    <string name="product_no_supplier">Please enter the supplier of the product</string>
+    <string name="product_no_email">Please enter supplier\'s email</string>
+    <string name="invalid_email_format">Invalid email address</string>
+    <string name="product_no_photo">Please insert photo of the product</string>
+    <string name="quantity_limit">Quantity should be between 0 and 10000</string>
+    <string name="image_loaded">Image loaded</string>
+    <string name="not_less_than_0">Quantity should not be less than 0</string>
+    <string name="not_more_than_10000">Quantity should not be greater than 10000</string>
+    <string name="no_phone_number">No phone number is recorded</string>
+    <string name="unable_get_permission">"Unable to get permission</string>
+
+    <string name="editor_insert_product_failed">Error with saving product</string>
+    <string name="editor_insert_product_success">Product saved</string>
+    <string name="editor_update_product_failed">Error with updating product</string>
+    <string name="editor_update_product_success">Product updated</string>
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+    <string name="editor_delete_product_success">Product deleted</string>
+
+    <string name="editor_delete_all_product_failed">Error with deleting all products</string>
+    <string name="editor_delete_all_product_success">All products deleted</string>
+
+    <string name="title_add_product">Add New Product</string>
+    <string name="title_edit_product">Edit Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="delete_product_detail">Delete Product Detail</string>
+    <string name="supplier_name">Supplier\'s Name</string>
+    <string name="supplier_phone">Supplier\'s Phone</string>
+    <string name="supplier_email">Supplier\'s Email</string>
+
+    <string name="weight_unit">%1$s kg/unit</string>
+    <string name="rm_price">RM %1$s</string>
+
+    <string name="delete_all_dialog_msg">Delete all products?</string>
+    <string name="delete_dialog_msg">Delete this product?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="add_image">Add image</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_image">Choose image</string>
+    <string name="store_is_empty_now">Store is empty now...</string>
+    <string name="get_started_by_adding_a_product">Get started by adding a product</string>
+</resources>

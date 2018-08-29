@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9d2e2d</color>
+    <color name="colorPrimaryDark">#680004</color>
+    <color name="editorColorPrimary">#2D3640</color>
+    <color name="editorColorPrimaryDark">#394450</color>
+    <color name="colorAccent">#672928</color>
+    <color name="textColorPrimary">#2e2b1a</color>
+    <color name="backgroundColor">#f5f5f5</color>
+    <color name="quantityBoxColor">#d0d1d1</color>
+    <color name="dividerColor">#c0c0c0</color>
+    <color name="subtitleColor">#A2AAB0</color>
+</resources>
